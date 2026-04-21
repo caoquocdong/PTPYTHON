@@ -2,11 +2,11 @@ from datetime import datetime
 
 Homnay = datetime.now()
 
-print("Năm hiện tại:", Homnay.year)
-print("Tháng hiện tại (bằng chữ):", Homnay.strftime("%B"))
-print("Tuần thứ mấy trong năm:", Homnay.strftime("%U"))
-print("Tuần thứ mấy trong tháng:", (Homnay.day - 1)//7 + 1)
-print("Ngày thứ mấy trong năm:", Homnay.strftime("%j"))
-print("Ngày hiện tại:", Homnay.day)
-print("Thứ hiện tại:", Homnay.strftime("%A"))
-print("Giờ phút giây:", Homnay.strftime("%H:%M:%S"))
+print("nam hien tai:", Homnay.year)
+print("thangg Hienn tai bang chu:", Homnay.strftime("%B"))
+print("Tuan thu may trong nam:", Homnay.strftime("%U"))
+print("Tuan thu may trong thang:", (Homnay.day - 1)//7 + 1)#tinh tuan thu may thang
+print("Ngày thu may trong nam:", Homnay.strftime("%j"))
+print("Ngày hien tai:", Homnay.day)
+print("Thu hien tai:", Homnay.strftime("%A"))
+print("Gio phut giay 5s :", Homnay.strftime("%H:%M:%S"))
