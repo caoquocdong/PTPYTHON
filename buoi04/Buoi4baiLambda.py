@@ -64,6 +64,7 @@ def SoNguyenTo(n):
 
 annofuction = lambda n: SoNguyenTo(n)
 
+
 if annofuction(n):
     print(n, "la so nguyen to")
 else:
